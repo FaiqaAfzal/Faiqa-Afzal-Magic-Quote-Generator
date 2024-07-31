@@ -35,3 +35,25 @@ ul{
   list-style: none;
 }
 
+.quote-display {
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem;
+}
+
+.magic-quote, .user-quotes {
+  width: 40%;
+}
+
+.user-quotes input {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.end-Btn {
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
